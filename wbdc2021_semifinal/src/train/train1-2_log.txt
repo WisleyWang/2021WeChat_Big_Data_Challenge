@@ -1,0 +1,103 @@
+feat nums: 96
+-------------------开始训练---------------------------------
+Please check the latest version manually on https://pypi.org/project/deepctr-torch/#history
+epoch: ----0--
+binary loss: 2.733252763748169
+train read_comment auc: 0.5009406779902223
+train like auc: 0.4872377945258515
+train click_avatar auc: 0.5483373023229284
+train forward auc: 0.46210619424613875
+train comment auc: 0.2810770107456855
+train follow auc: 0.5757634364820847
+train favorite auc: 0.5392322413599009
+binary loss: 0.3142567276954651
+train read_comment auc: 0.9381530329013665
+train like auc: 0.8446579760182797
+train click_avatar auc: 0.8209983090857343
+train forward auc: 0.8909977532679739
+train comment auc: 0.9840104209069446
+train follow auc: 0.8292115716987449
+train favorite auc: 0.8927436440677965
+binary loss: 0.3134460747241974
+train read_comment auc: 0.9409382749613961
+train like auc: 0.8601988518875913
+train click_avatar auc: 0.8678064552151564
+train forward auc: 0.9371319690587642
+train comment auc: 0.7684604738256127
+train follow auc: 0.7792070341121876
+train favorite auc: 0.9528703552803129
+binary loss: 0.29889199137687683
+train read_comment auc: 0.9336531530157243
+train like auc: 0.8712793097671594
+train click_avatar auc: 0.8703617754109974
+train forward auc: 0.8967863722580702
+train comment auc: 0.6828097020999512
+train follow auc: 0.8336828175895765
+train favorite auc: 0.9959554458902674
+binary loss: 0.31369325518608093
+train read_comment auc: 0.9447205597235101
+train like auc: 0.8594017629275645
+train click_avatar auc: 0.8882291092584125
+train forward auc: 0.8623603402619074
+train comment auc: 0.9213890245888292
+train follow auc: 0.8889989033369889
+train favorite auc: 0.943228762263471
+binary loss: 0.2989906966686249
+train read_comment auc: 0.9451006169176908
+train like auc: 0.8759188676576716
+train click_avatar auc: 0.8741982212668294
+train forward auc: 0.928807529956427
+train comment auc: 0.8965152255333008
+train follow auc: 0.8667753062277628
+train favorite auc: 0.9635017658245042
+epoch 0  loss: 0.316333 
+epoch: ----1--
+binary loss: 0.27774888277053833
+train read_comment auc: 0.9530804684167413
+train like auc: 0.9077094978666238
+train click_avatar auc: 0.9080653305146339
+train forward auc: 0.9234414607948442
+train comment auc: 0.9983448650115317
+train follow auc: 0.942954249430153
+train favorite auc: 0.9537791171200521
+binary loss: 0.2888947129249573
+train read_comment auc: 0.9603322448442877
+train like auc: 0.8845566693565597
+train click_avatar auc: 0.9203250700375264
+train forward auc: 0.9083082095133818
+train comment auc: 0.9431281550236119
+train follow auc: 0.9841192279501588
+train favorite auc: 0.9751085780353675
+binary loss: 0.2886342704296112
+train read_comment auc: 0.9513403870768988
+train like auc: 0.8944830653278092
+train click_avatar auc: 0.9185088145184243
+train forward auc: 0.9107637668910898
+train comment auc: 0.9427920015820024
+train follow auc: 0.9813321750775941
+train favorite auc: 0.992105191701966
+binary loss: 0.28482210636138916
+train read_comment auc: 0.9530594372925351
+train like auc: 0.8772780630640951
+train click_avatar auc: 0.8984500045690621
+train forward auc: 0.9496481715365551
+train comment auc: 0.9952377075871052
+train follow auc: 0.9822340592198027
+train favorite auc: 0.9929572872513859
+binary loss: 0.27841687202453613
+train read_comment auc: 0.9578317921053022
+train like auc: 0.89670788444869
+train click_avatar auc: 0.91417984867542
+train forward auc: 0.9024475810044252
+train comment auc: 0.9726988262938104
+train follow auc: 0.9749559082892417
+train favorite auc: 0.9751973807206853
+binary loss: 0.2835078537464142
+train read_comment auc: 0.9516664809863339
+train like auc: 0.8973651057220866
+train click_avatar auc: 0.9184910581222057
+train forward auc: 0.935864033162213
+train comment auc: 0.997110532313202
+train follow auc: 0.868353013029316
+train favorite auc: 0.994165752780824
+epoch 1  loss: 0.288772 

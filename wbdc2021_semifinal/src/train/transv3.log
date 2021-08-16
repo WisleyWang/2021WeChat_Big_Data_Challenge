@@ -1,0 +1,32 @@
+nohup: ignoring input
+/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torchtext/data/field.py:150: UserWarning: Field class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.
+  warnings.warn('{} class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.'.format(self.__class__.__name__), UserWarning)
+/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torchtext/data/example.py:78: UserWarning: Example class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.
+  warnings.warn('Example class will be retired soon and moved to torchtext.legacy. Please see the most recent release notes for further information.', UserWarning)
+Please check the latest version manually on https://pypi.org/project/deepctr-torch/#history
+epoch: ----0--
+  0%|                                                                                                                              | 0/8933 [00:00<?, ?it/s]/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/functional.py:1628: UserWarning: nn.functional.tanh is deprecated. Use torch.tanh instead.
+  warnings.warn("nn.functional.tanh is deprecated. Use torch.tanh instead.")
+  0%|                                                                                                                              | 0/8933 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "train2.py", line 98, in <module>
+    logits =model(batch_src,batch_dst,batch_hist[:,:-1],batch_hist[:,-1:].to(device))
+  File "/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/tione/notebook/wbdc2021-semi/src/train/model/trans1.py", line 603, in forward
+    hist_feat = self.transformer_encoder(hist_feat)
+  File "/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/modules/transformer.py", line 181, in forward
+    output = mod(output, src_mask=mask, src_key_padding_mask=src_key_padding_mask)
+  File "/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/modules/transformer.py", line 294, in forward
+    key_padding_mask=src_key_padding_mask)[0]
+  File "/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/modules/module.py", line 727, in _call_impl
+    result = self.forward(*input, **kwargs)
+  File "/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/modules/activation.py", line 985, in forward
+    attn_mask=attn_mask)
+  File "/home/tione/notebook/envs/tf1/lib/python3.6/site-packages/torch/nn/functional.py", line 4294, in multi_head_attention_forward
+    attn_output_weights = torch.bmm(q, k.transpose(1, 2))
+RuntimeError: CUDA out of memory. Tried to allocate 32.00 GiB (GPU 0; 31.72 GiB total capacity; 9.65 GiB already allocated; 20.81 GiB free; 9.70 GiB reserved in total by PyTorch)
