@@ -41,16 +41,16 @@ inference.sh
 
 # 代码说明【重要】
 
-     | 路径             | 行数 | 内容                                |
-     | ---------------- | ---- | ----------------------------------- |
-     | src/inference.py | 80  | test_pred=test_pred_func(model,test_a,src,dst,hist_id,hist_seq,batch_size=4096*3) |
-     | src/inference.py | 86  | test_pred=test_pred_func(model,test_a,src,dst,hist_id,hist_seq,batch_size=4096*3) |
-     | src/inference.py | 92  |test_pred=test_pred_func(model,test_a,src,dst,batch_size=4096*3) |
-     | src/inference.py | 102 | test_pred=test_pred_func(model,test_a,src,dst,test_dense,batch_size=4096*3) |
-     | src/inference.py | 111 |test_pred=test_pred_func(model,test_a,src,dst,test_dense,batch_size=4096*3) |
-     | src/inference.py |120 | test_pred=test_pred_func(model,test_a,src,dst,test_dense,batch_size=4096*3) |
-      | src/inference.py |120 | test_pred=test_pred_func(model,test_a,src,dst,test_dense,batch_size=4096*3) |
-       | src/inference.py |128,129 | sub[PREDICT_LIST]=(subt1[PREDICT_LIST]*0.5+subt2[PREDICT_LIST]*0.25+subt3[PREDICT_LIST]*0.25)/2+(sub1[PREDICT_LIST]*0.3+sub2[PREDICT_LIST]*0.2+sub3[PREDICT_LIST]*0.2+sub4[PREDICT_LIST]*0.2+sub1_1[PREDICT_LIST]*0.1)/2|
+| 路径             | 行数 | 内容                                |
+| ---------------- | ---- | ----------------------------------- |
+| src/inference.py | 80  | test_pred=test_pred_func(model,test_a,src,dst,hist_id,hist_seq,batch_size=4096*3) |
+| src/inference.py | 86  | test_pred=test_pred_func(model,test_a,src,dst,hist_id,hist_seq,batch_size=4096*3) |
+| src/inference.py | 92  |test_pred=test_pred_func(model,test_a,src,dst,batch_size=4096*3) |
+| src/inference.py | 102 | test_pred=test_pred_func(model,test_a,src,dst,test_dense,batch_size=4096*3) |
+| src/inference.py | 111 |test_pred=test_pred_func(model,test_a,src,dst,test_dense,batch_size=4096*3) |
+| src/inference.py |120 | test_pred=test_pred_func(model,test_a,src,dst,test_dense,batch_size=4096*3) |
+| src/inference.py |120 | test_pred=test_pred_func(model,test_a,src,dst,test_dense,batch_size=4096*3) |
+| src/inference.py |128,129 | sub[PREDICT_LIST]=(subt1[PREDICT_LIST]*0.5+subt2[PREDICT_LIST]*0.25+subt3[PREDICT_LIST]*0.25)/2+(sub1[PREDICT_LIST]*0.3+sub2[PREDICT_LIST]*0.2+sub3[PREDICT_LIST]*0.2+sub4[PREDICT_LIST]*0.2+sub1_1[PREDICT_LIST]*0.1)/2|
        
           
 最终结果文件输出到 ./data/submission 下
